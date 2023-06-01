@@ -1,0 +1,368 @@
+<html>
+	<head>
+		<title> ALEATÓRIO </title>
+	</head>
+	
+	<style>
+
+
+		.container
+		{
+			width: 100%;
+			height: 100%;
+			background-color: #87CEEB ; /* cor de trás de td (n sei como fala)  */
+		}
+
+		.header
+		{
+			width: 100%;
+			height: 2%;
+			background-color: blue ;/*darkslateblue ;/*#363636;*/
+		}
+
+		.navbar
+		{
+			width: 100%;
+			height: 8%;
+			background-color: royalblue ;/*#696969 ;*/
+		}
+
+		.content
+		{
+			width: 100%;
+			height: 88%;
+			background-color: ;
+		}
+
+		.footer
+		{
+			width: 100%;
+			height: 2%;
+			background-color: rgba(0,60,900,0.8);
+		}
+
+		.bt1
+		{
+			width: 100px; /*largura*/
+			height: 60px; /*comprimento*/
+			background-color: rgba(224,255,255,0.5);
+			position: absolute;
+			margin: 5px 0px 0px 300px; /* top, right, buttom, left */
+			padding: 0px 1px 0px 1px;
+		}
+
+		.bt2
+		{
+			width: 100px; /*largura*/
+			height: 60px; /*comprimento*/
+			background-color: rgba(224,255,255,0.8);
+			position: absolute;
+			margin: 5px 0px 0px 450px; /* top, right, buttom, left */
+			padding: 0px 1px 0px 1px;
+		}
+
+		.bt3
+		{
+			width: 100px; /*largura*/
+			height: 60px; /*comprimento*/
+			background-color: rgba(224,255,255,0.8);
+			position: absolute;
+			margin: 5px 0px 0px 598px; /* top, right, buttom, left */
+			padding: 0px 1px 0px 1px;
+		}
+
+		.box
+		{
+			width: 580px ;  /*largura*/
+			height: 390px ; /*comprimento*/
+			background-color: rgba(102,67,137,0.7); /*#8B4513 ; /*preenchimento (cor) */
+			margin: 40px 0px 0px 370px; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 3% ;
+			border: 18px solid black ;
+			box-shadow: 7px 0px 10px 2px slategray ; /* left, down, focus, size, color */ /*border*/
+
+		}
+
+		.line
+		{
+			width: 130px ;  /*largura*/
+			height: 150px ; /*comprimento*/
+			background-color: black ;/*#8B4513 ; /*preenchimento (cor) */
+			margin: 450px 10px 0px 610px ; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 3% ;
+			box-shadow: 7px 0px 10px 2px slategray ; /* left, down, focus, size, color */ /*border*/
+
+		}
+
+		.base
+		{
+			width: 300px ;  /*largura*/
+			height: 20px ; /*comprimento*/
+			background-color: black ;/*#8B4513 ; /*preenchimento (cor) */
+			margin: 578px 10px 0px 528px; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 100px ;
+			box-shadow: 4px 3px 10px 2px slategray ; /* left, down, focus, size, color */ /*border*/
+
+		}
+
+		.box2
+		{
+			width: 450px ;  /*largura*/
+			height: 270px ; /*comprimento*/
+			/*background-color: black;/*#8B4513 ; /*preenchimento (cor) */
+			margin: 20px 0px 0px 65px; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 7px ;
+			border: 10px solid black ;
+			box-shadow: 10px 6px 10px 0px rgba(102,67,137,0.8);/*#664389;/*rgba(128,128,128,0.8);/*slategray ; /* left, down, focus, size, color */ /*border*/
+
+		}
+
+		.line2
+		{
+			width: 100px ;  /*largura*/
+			height: 60px ; /*comprimento*/
+			background-color: black ;/*#8B4513 ; /*preenchimento (cor) */
+			margin: 300px 0px 0px 235px; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 5px ;
+			box-shadow: 7px 0px 10px 2px rgba(102,67,137,0.8);/*slategray ; /* left, down, focus, size, color */ /*border*/
+		}
+
+		.base2
+		{
+			width: 230px ;  /*largura*/
+			height: 17px ; /*comprimento*/
+			background-color: black ;/*#8B4513 ; /*preenchimento (cor) */
+			margin: 348px 10px 0px 173px; /* top, right, buttom, left */
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+			border-radius: 100px ;
+			box-shadow: 10px 5px 8px 3px rgba(102,67,137,0.8);/*slategray ; /* left, down, focus, size, color */ /*border*/
+		}
+
+		.TVlines
+		{
+			width: 66px ;  /*largura*/
+			height: 220px ; /*comprimento*/
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+		}
+
+		.whiteb
+		{
+			background-color: rgba(228,244,247,0.8);/*white ;*/
+			margin: 0px 0px 0px 0px; /* top, right, buttom, left */
+		}
+
+		.yellow
+		{
+			background-color: rgba(255,255,0,0.8) ;
+			margin: 0px 0px 0px 66px; /* top, right, buttom, left */
+		}
+
+		.cyan
+		{
+			background-color: rgba(0,255,255,0.8);
+			margin: 0px 0px 0px 130px; /* top, right, buttom, left */
+		}
+
+		.lime
+		{
+			background-color: rgba(191,255,0,0.8);
+			margin: 0px 0px 0px 195px; /* top, right, buttom, left */
+		}
+
+		.magenta
+		{
+			background-color: rgba(255,0,255,0.7) ;
+			margin: 0px 0px 0px 258px; /* top, right, buttom, left */
+		}
+
+		.red
+		{
+			background-color: rgba(255,0,0,0.8);
+			margin: 0px 0px 0px 322px; /* top, right, buttom, left */
+		}
+
+		.blue
+		{
+			background-color: rgba(0,0,255,0.8);
+			margin: 0px 0px 0px 385px; /* top, right, buttom, left */
+		}
+
+		.TVlines2
+		{
+			width: 66px ;  /*largura*/
+			height: 52px ; /*comprimento*/
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+		}
+
+		.blue2
+		{
+			background-color: blue ;
+			margin: 189px 0px 0px 0px; /* top, right, buttom, left */
+		}
+
+		.black
+		{
+			background-color: black ;
+			width: 448px ;
+			margin: 189px 0px 0px 1px; /* top, right, buttom, left */
+		}
+
+		.magenta2
+		{
+			background-color: rgba(255,0,255,0.8);
+			margin: 189px 0px 0px 130px; /* top, right, buttom, left */
+		}
+
+		.cyan2
+		{
+			background-color: rgba(0,255,255,0.9);
+			margin: 189px 0px 0px 258px; /* top, right, buttom, left */
+		}
+
+		.whiteb2
+		{
+			background-color: rgba(228,244,247,0.9);
+			margin: 189px 0px 0px 385px; /* top, right, buttom, left */
+		}
+
+		.TVlines3
+		{
+			width: 149px ;  /*largura*/
+			height: 31px ; /*comprimento*/
+			position: absolute ; /* posição--  absolute (absoluta), relative (relativa), fixed (fixa) */
+		}
+
+		.black2
+		{
+			background-color: black ;
+			width: 450px;
+			margin: 241px 0px 0px 0px; /* top, right, buttom, left */
+		}
+
+		.whiteb3
+		{
+			background-color: rgba(228,244,247,0.9);
+			margin: 241px 0px 0px 150px; /* top, right, buttom, left */
+		}
+
+		a
+		{
+			color:  ; /*black;*/
+		}
+
+		a:hover
+		{
+			color: rgba(0,0,0,0.5);/*#79a7d3;*/
+		}
+
+	</style>
+	<body>
+
+		<div class="container">
+			
+			<div class="header"> </div>
+
+			<div class="navbar"> 
+
+				<div class="bt1">
+					<a href="num-sei.html">
+						<center>
+							<p style="font-family: Georgia;">
+								<font color="#005757" size="6px">
+									<b>
+										1º
+									</b>
+								</font>
+							</p>
+						</center>
+					</a>
+				</div>
+
+				<div class="bt2">
+					<a href="num-sei-2.html">
+						<center>
+							<p style="font-family: Georgia;">
+								<font color="#005757" size="6px">
+									<b>
+										2º
+									</b>
+								</font>
+							</p>
+						</center>
+					</a>
+				</div>
+
+				<div class="bt3">
+					<a href="num-sei-3.html">
+						<center>
+							<p style="font-family: Georgia;">
+								<font color="#005757" size="6px">
+									<b>
+										3º
+									</b>
+								</font>
+							</p>
+						</center>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="content">
+				<br> <br>
+				<center>
+					<b><font size="5px">
+						img PC FORA AR :)
+					</font></b>
+				</center>
+
+				<div class="line"> </div>
+
+				<div class="box">
+
+					<div class="line2"> </div>
+
+					<div class="box2">
+
+						<!-- 1-up -->
+						<div class="whiteb TVlines">  </div>
+						<div class="yellow TVlines">  </div>
+						<div class="cyan TVlines">    </div>
+						<div class="lime TVlines">    </div>
+						<div class="magenta TVlines"> </div>
+						<div class="red TVlines">     </div>
+						<div class="blue TVlines">    </div>
+
+						<!-- 2-middle -->
+						<div class="black TVlines2">    </div>
+						<div class="blue2 TVlines2">    </div>
+						<div class="magenta2 TVlines2"> </div>
+						<div class="cyan2 TVlines2">    </div>
+						<div class="whiteb2 TVlines2">  </div>
+						
+						<!-- 3-down -->
+						<div class="black2 TVlines3">  </div>
+						<div class="whiteb3 TVlines3"> </div>
+
+					</div>
+
+					<div class="base2"> </div>
+				</div>
+
+				<div class="base"> </div>
+				
+			</div>
+
+			<div class="footer">
+				
+			</div>
+
+		</div>
+	</body>
+
+</html>
