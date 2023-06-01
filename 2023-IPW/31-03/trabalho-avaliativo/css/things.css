@@ -1,0 +1,19 @@
+.content
+		{
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(115deg, #b1bdff 0, #5389f2 50%, #005bdc 100%);
+		}
+
+fieldset
+		{
+			width: 30%;
+			height: 40%;
+			margin: 160px 0px 0px 0px;
+			border: 1px 1px 1px 1px;
+			border-block: 0px;
+			border-radius: 30px;
+			border-color: mediumblue;
+			background-color: rgba(173,216,230,0.5);
+
+		}
